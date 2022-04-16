@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="35dp"
+        android:text="@string/btnCrear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Alumnos"
+        android:layout_width="129dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/Alumnos"
+        app:layout_constraintBottom_toTopOf="@+id/NombreAlumno"
+        app:layout_constraintEnd_toStartOf="@+id/VariableNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/VariableNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="49dp"
+        android:text="curso"
+        app:layout_constraintBottom_toTopOf="@+id/EditNombreAlumno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NombreAlumno"
+        android:layout_width="159dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="233dp"
+        android:text="@string/NombreAlumno"
+        app:layout_constraintBottom_toTopOf="@+id/EditNombreAlumno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EditNombreAlumno"
+        android:layout_width="337dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/CodigoAlumno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/CodigoAlumno"
+        android:layout_width="155dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="237dp"
+        android:text="@string/CodigoAlumno"
+        app:layout_constraintBottom_toTopOf="@+id/EditCodigoAlumno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EditCodigoAlumno"
+        android:layout_width="333dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Calificaciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Calificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="304dp"
+        android:text="@string/Calificaciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditCodigoAlumno" />
+
+    <TextView
+        android:id="@+id/NotaMC"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/NotaMC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Calificaciones" />
+
+    <TextView
+        android:id="@+id/NotaEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="91dp"
+        android:text="@string/NotaEF"
+        app:layout_constraintEnd_toStartOf="@+id/Practicas"
+        app:layout_constraintStart_toEndOf="@+id/NotaMC"
+        app:layout_constraintTop_toBottomOf="@+id/EditCodigoAlumno" />
+
+    <TextView
+        android:id="@+id/Practicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/Practicas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditNotaMC"
+        android:layout_width="52dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="432dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NotaMC"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/EditNotaP"
+        android:layout_width="49dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="432dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Practicas"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <EditText
+        android:id="@+id/EditNotaEF"
+        android:layout_width="49dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="349dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btnCrear"
+        app:layout_constraintEnd_toStartOf="@+id/EditNotaP"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/EditNotaMC"
+        app:layout_constraintTop_toBottomOf="@+id/NotaEF"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

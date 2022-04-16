@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="648dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="35dp"
+        android:text="@string/btnAdd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <TextView
+        android:id="@+id/Miscursos"
+        android:layout_width="160dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/MisCursos"
+        app:layout_constraintBottom_toTopOf="@+id/NombreCurso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NombreCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="279dp"
+        android:text="@string/NombreCurso"
+        app:layout_constraintBottom_toTopOf="@+id/EditNombreCurso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EditNombreCurso"
+        android:layout_width="341dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="9dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/CodigoCurso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/CodigoCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="285dp"
+        android:text="@string/CodigoCurso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditNombreCurso" />
+
+    <EditText
+        android:id="@+id/EditCodigoCurso"
+        android:layout_width="343dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CodigoCurso" />
+
+    <TextView
+        android:id="@+id/HorasCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/HorasCurso"
+        app:layout_constraintBottom_toTopOf="@+id/EditHorasCurso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditCodigoCurso" />
+
+    <EditText
+        android:id="@+id/EditHorasCurso"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="434dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/MetodoCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="22dp"
+        android:text="@string/MetodoCurso"
+        app:layout_constraintBottom_toTopOf="@+id/ValorMC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditHorasCurso" />
+
+    <TextView
+        android:id="@+id/ValorMC"
+        android:layout_width="126dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/ValorMC"
+        app:layout_constraintBottom_toTopOf="@+id/EditMC"
+        app:layout_constraintEnd_toStartOf="@+id/ValorEF"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ValorEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="53dp"
+        android:text="@string/ValorEF"
+        app:layout_constraintEnd_toStartOf="@+id/ValorP"
+        app:layout_constraintTop_toBottomOf="@+id/EditHorasCurso" />
+
+    <TextView
+        android:id="@+id/ValorP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/ValorP"
+        app:layout_constraintBottom_toTopOf="@+id/EditP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditMC"
+        android:layout_width="80dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="260dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/EditEF"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EditEF"
+        android:layout_width="75dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="272dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/EditP"
+        app:layout_constraintTop_toBottomOf="@+id/ValorEF"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/EditP"
+        android:layout_width="72dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="176dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/btnAdd"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Teacher Assistant</string>
+
+    <string name="btnAdd">Crear</string>
+    <string name="btnCrear">Registrar</string>
+
+    <string name="MisCursos">Registro de Curso</string>
+    <string name="NombreCurso">Nombre del curso</string>
+    <string name="CodigoCurso">Codigo del curso</string>
+    <string name="HorasCurso">Horas semanales</string>
+    <string name="MetodoCurso">Método de calificación</string>
+    <string name="ValorMC">Examen de Medio Curso</string>
+    <string name="ValorEF">Examen Final</string>
+    <string name="ValorP">Practicas</string>
+    <string name="Alumnos">Registro de notas de</string>
+    <string name="NombreAlumno">Nombre del Alumno</string>
+    <string name="CodigoAlumno">Codigo del Alumno</string>
+    <string name="Calificaciones">Calificaciones</string>
+    <string name="NotaMC">Medio Curso</string>
+    <string name="NotaEF">Examen Final</string>
+    <string name="Practicas">Practicas</string>
+
+
+</resources>
