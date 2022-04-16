@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Teacher Assistant</string>
 
-    <string name="btnAdd">Crear</string>
-    <string name="btnCrear">Registrar</string>
+    <string name="btnAdd">Siguiente</string>
+    <string name="btnCrear">Revisar</string>
+    <string name="btnRegistrarCurso">Registrar</string>
 
     <string name="MisCursos">Registro de Curso</string>
     <string name="NombreCurso">Nombre del curso</string>
@@ -19,6 +20,7 @@
     <string name="NotaMC">Medio Curso</string>
     <string name="NotaEF">Examen Final</string>
     <string name="Practicas">Practicas</string>
+    <string name="revisando">revisando</string>
 
 
 </resources>

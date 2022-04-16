@@ -199,4 +199,18 @@
         app:layout_constraintBottom_toTopOf="@+id/btnAdd"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <Button
+        android:id="@+id/btnRegistrarCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="34dp"
+        android:text="@string/btnRegistrarCurso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnAdd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditMC" />
+
 </android.support.constraint.ConstraintLayout>
